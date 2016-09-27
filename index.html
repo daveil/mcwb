@@ -13,8 +13,174 @@
 		<script type="text/javascript" src="lib/Bootflat/js/respond.min.js"></script>
 		<![endif]-->
 		<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/holderjs/holder.min.js"></script>
 		<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+		<div class="container" id="header">
+			<div class="row">
+				<div class="col-md-9" id="brand">
+					<div id="logo">
+						<!--<img src="holder.js/100x100">-->
+						<img src="img/logo.jpg" height="100">
+					</div>
+					<div id="company">
+						<h1>Medical Center Western Batangas</h1>
+						<p>We value your health!</p>
+					</div>
+				</div>
+				<div class="col-md-3" id="contact-info">
+					<span>CALL US:</span>
+					<div>(043) 407 1103</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="main-nav">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand hide" href="#">Brand</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Health Services</a></li>
+					<li><a href="doctors-corner.html">Doctor's Corner</a></li>
+					<li><a href="#">Updates</a></li>
+					<li><a href="#">Community</a></li>
+					
+				  </ul>
+				  <form class="navbar-form navbar-right" role="search">
+                        <div class="form-search search-only">
+                          <i class="search-icon glyphicon glyphicon-search"></i>
+                          <input type="text" class="form-control search-query" placeholder="Search">
+                        </div>
+                      </form>
+				  
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h3>What's New</h3>
+					<div class="jumbotron">
+					  <div class="jumbotron-photo">
+						<!--<img src="holder.js/460x300">-->
+						<img src="img/building.jpg" class="img-responsive">
+					  </div>
+					  <div class="jumbotron-contents">
+						<h1>Welcome to our Homepage</h1>
+						<h2>Discover</h2>
+						<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+						<h2>Explore</h2>
+						<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-7" id="doctors-corner">
+					<h3>Doctor's Corner</h3>
+					<div class="jumbotron">
+					  <div class="jumbotron-photo">
+						<!--<img src="holder.js/655x180">-->
+						<img src="img/doc.jpg" class="img-responsive">
+					
+					  </div>
+					  <div class="jumbotron-contents">
+						
+						<h2>Safety and Care</h2>
+						<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+						<a href="doctors-corner.html" class="btn btn-warning pull-right">Learn More</a>
+						<div class="clearfix"></div>
+					   </div>
+					</div>
+					<div class="row" id="events">
+						<div class="col-md-6">
+							<h3>Events</h3>
+							<div class="thumbnail">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="date-thumb">
+											<div class="month">JUL</div>
+											<div class="date">28</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<h4>Website Present..</h4>
+										<p>Board Room</p>
+									</div>
+								</div>
+						  </div>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-group">
+							  <li class="list-group-item"><b>July 2016</b></li>
+							  <li class="list-group-item"><span class="badge badge-default">91</span>Dapibus ac facilisis in</li>
+							  <li class="list-group-item"><span class="badge badge-primary">38</span>Morbi leo risus</li>
+							  <li class="list-group-item"><span class="badge badge-default">56</span>Porta ac consectetur ac</li>
+							  <li class="list-group-item"><span class="badge badge-default">20</span>Vestibulum at eros</li>
+							  <li class="list-group-item"><span class="badge badge-default">99+</span>Dapibus ac facilisis in</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="connect">
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Community</h3>
+					<!--<img src="holder.js/553x255" class="thumb">-->
+					<img src="img/staffs.jpg" class="img-responsive thumb">
+					<div class="list-group">
+					  <a href="#" class="list-group-item active">
+						<h4 class="list-group-item-heading">List group item heading</h4>
+						<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					  </a>
+					  <a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">List group item heading</h4>
+						<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					  </a>
+					</div>
+				</div>
+				<div class="col-md-6" id="social-media">
+					<h3>Social Media</h3>
+					<div class=" text-center">
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedicalcenterwesternbatangas%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=193892597288597" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+		  <div class="container">
+			<div class="clearfix">
+			  <div class="footer-logo" id="footer-logo">
+				<a href="#">Medical Center Western Batangas</a>
+				<p>We value your health</p>
+			  </div>
+			  
+			  <dl class="footer-nav pull-right">
+				<dd class="nav-item"><a href="#">Home</a></dd>
+				<dd class="nav-item"><a href="#">About Us</a></dd>
+				<dd class="nav-item"><a href="#">Doctor's Corner</a></dd>
+				<dd class="nav-item"><a href="#">Updates</a></dd>
+				<dd class="nav-item"><a href="#">Community</a></dd>
+			  </dl>
+			</div>
+			<div class="footer-copyright text-center">Copyright © 2016 MCWB.All rights reserved.</div>
+		  </div>
+		</div>
 	</body>
 </html>
