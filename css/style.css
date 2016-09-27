@@ -53,6 +53,10 @@
 	color:#333;
 	background-color: #e7e7e7;
 }
+#doctors-corner .jumbotron-photo{
+	height:224px;
+	overflow:hidden;
+} 
 #events .thumbnail .date-thumb{
 	text-align:center;
 	background-color:#f5efef;
@@ -85,6 +89,24 @@
 a.list-group-item.active, a.list-group-item.active:focus, a.list-group-item.active:hover{
 	background-color:#2863b3;
 	border-color:#2863b3;
+}
+#content .title h3{
+	margin-top:0;
+}
+#content .share-button button{
+	font-size:1rem;
+	text-align:center;
+}
+#content .title{
+	padding-top:30px;
+	border-bottom:3px solid #f6bb43;
+}
+#content .content-thumb{
+	margin-top:1rem;
+}
+#content .content{
+	margin-bottom:2rem;
+	
 }
 #footer-logo {
 	width:auto;
