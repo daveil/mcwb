@@ -79,6 +79,9 @@
 #connect{
 	border-top:3px solid #f6bb43;
 }
+#connect .thumb{
+	margin-bottom:1rem;
+}
 a.list-group-item.active, a.list-group-item.active:focus, a.list-group-item.active:hover{
 	background-color:#2863b3;
 	border-color:#2863b3;
