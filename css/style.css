@@ -38,8 +38,10 @@
 }
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7;
-	
+    border-color: #e7e7e7;	
+}
+.form-control:focus{
+	border-color:#2863b3;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color:#2863b3;
